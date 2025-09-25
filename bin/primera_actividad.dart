@@ -1,6 +1,10 @@
 import 'dart:math';
 void main(List<String> arguments) {
- example05();
+  example01();
+  example02();
+  example03();
+  example04();
+  example05();
 }
 
 void example01(){
@@ -141,4 +145,13 @@ void example06(){
 
   // Se puede eliminar todos los elementos de la lista
   nums.clear();
+
+  // Se pueden añadir varios elementos a la vez en la lista
+  nums.addAll([12, 20]);
+
+  // Se puede insertar un elemento en una posición específica
+  nums.insert(1, 45);
+
+  // Se puede acceder a un elemento por el índice
+  print(nums[0]);
 }
